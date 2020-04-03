@@ -1,0 +1,27 @@
+
+mateclass， 类的祖宗
+a、Python中一切事物都是对象
+b、
+    class Foo：
+        pass
+    obj = Foo（）
+    obj是对象，Foo类
+    Foo类也是一个对象，type的对象
+c、类都是type类的对象，type（..）
+    "对象"都是以类的对象，类()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

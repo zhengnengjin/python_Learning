@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        a:link{/* 未访问的链接 */
+            color: red;
+        }
+        a:hover{/* 鼠标移动到链接上 */
+            color: yellow;
+        }
+        a:visited{/* 已访问的链接 */
+            color: purple;
+        }
+        a:active{/* 选定的链接 */
+            color: green;
+        }
+        p:before{/*before伪类*/
+            content: "hello";
+            color: yellow;
+        }
+        p:after{/*after伪类*/
+            content: "pp";
+            color: orange;
+        }
+
+    </style>
+</head>
+<body>
+
+<a style="font-size: 50px" href="http://www.baidu.com">baidu</a>
+<p>hello p</p>
+
+</body>
+</html>

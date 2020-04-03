@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * { /**/
+            font-size: 45px;
+        }
+
+        span {
+            color: beige;
+            background-color: darkgrey;
+        }
+
+        #d1 {
+            font-family: inherit;
+            color: aquamarine;
+            background-color: bisque;
+        }
+
+        .c1 { /*id是唯一的，class可以是多个值*/
+            background-color: cornflowerblue;
+
+        }
+        /*组合选择器*/
+        p, div { /*多元素选择器*/
+            font-family: Monaco;
+        }
+        div p { /*后代选择器*/
+            font-size: 80px;
+            color: red;
+        }
+        div .c1 { /*后代选择器，所有子代孙子代的c1都变*/
+            font-size: 50px;
+        }
+        div>.c2{/*子代选择器，所有子代的c2都变*/
+            font-size: 20px;
+        }
+        #xx+span{
+            background-color: black;
+        }
+
+    </style>
+</head>
+
+<body>
+<p>hello p1</p>
+<div id="xx">
+    <div id="d1">hello div1
+        <span>hello span</span>
+    </div>
+    <p id="p1">hello p2</p>
+    <p class="c1">hello p3</p>
+    <div class="c2">子代选择器</div>
+
+    <div class="c1">hello div2</div>
+</div>
+<span>毗邻选择器1</span>
+<span>毗邻选择器2</span>
+</body>
+</html>

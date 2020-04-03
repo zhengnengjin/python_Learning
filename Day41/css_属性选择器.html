@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        [id]{
+            color: red;
+        }
+        [class="div3"]{
+            color: cornflowerblue;
+        }
+        [class~="div2"]{/*匹配所有class属性具有多个空格分隔的值、其中一个值等于div2的E元素*/
+            font-size: 50px;
+        }
+        [class^="div1"]{/*以class属性的值为div1开头的*/
+            background-color: aquamarine;
+        }
+        [class$="div1"]{/*以class属性的值为div2结尾的*/
+            font-size: 30px;
+        }
+        [class*="v1"]{/*包含class属性的值为v1的*/
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+
+<div class="div1 div2" znj="nb">div1</div>
+<p class="div1">p1</p>
+<div class="div2">div2</div>
+<div class="div3">div3</div>
+<div id="id">div4</div>
+
+
+
+</body>
+</html>

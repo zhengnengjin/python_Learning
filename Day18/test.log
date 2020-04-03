@@ -1,0 +1,15 @@
+Wed, 17 Oct 2018 23:48:24 logging_module.py[line:22] DEBUG debug message
+Wed, 17 Oct 2018 23:48:24 logging_module.py[line:23] INFO info message
+Wed, 17 Oct 2018 23:48:24 logging_module.py[line:24] WARNING warning message
+Wed, 17 Oct 2018 23:48:24 logging_module.py[line:25] ERROR error message
+Wed, 17 Oct 2018 23:48:24 logging_module.py[line:26] CRITICAL critical message
+2018-10-17 23:50:56,948 - root - DEBUG - logger debug message
+2018-10-17 23:50:56,948 - root - INFO - logger info message
+2018-10-17 23:50:56,949 - root - WARNING - logger warning message
+2018-10-17 23:50:56,949 - root - ERROR - logger error message
+2018-10-17 23:50:56,949 - root - CRITICAL - logger critical message
+2018-10-17 23:52:10,015 - root - DEBUG - logger debug message
+2018-10-17 23:52:10,016 - root - INFO - logger info message
+2018-10-17 23:52:10,016 - root - WARNING - logger warning message
+2018-10-17 23:52:10,016 - root - ERROR - logger error message
+2018-10-17 23:52:10,016 - root - CRITICAL - logger critical message

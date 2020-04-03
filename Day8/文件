@@ -1,0 +1,33 @@
+文件：
+.flush :刷新缓冲区，将缓冲区数据写入文件，同时清空
+.fileno :文件描述符，返回一个整数，唯一代表操作的对象
+.tell :返回文件当前位置，及文件指针当前的位置，输出位数
+.isatty :检测文件是否连接到一个终端设备，是True，否Flase
+.seek :seek() 方法用于移动文件读取指针到指定位置。
+
+模式：
+'r': read只读模式
+'w': write只写模式（清空之前所写的）
+'a': append 追加模式
+加模式：
+'r+'： 读写模式（用的最多），先读文件
+'w+'： 写读模式， 先删文件
+'a+'： 追加读模式
+
+文件中操作修改：（f = 文件）
+f_read = open('文件名', 'r', encoding = 'utf-8')
+f_read = open('文件名', 'w', encoding = 'utf-8')
+
+num = 0
+for line in f_read:
+    num += 1
+    if num == 5:
+        line = 'hello world(修改的内容)\n'
+    f_write.write(lien)
+f_read.close
+f_write.close
+
+
+
+
+
